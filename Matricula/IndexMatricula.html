@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+         <a href="controleMatricula.php?op=buscar">BUSCAR E DELETAR</a>
+        <form action = 'controleMatricula.php?op=matricular' method ='post'>
+                    <h3> Cadastrar Aluno:  </h3>
+                    Digite o Nome:<br/>
+                    <input type = 'text' name='nome'/><br/><br/>
+                    Digite o cpf:<br/>
+                    <input type = 'text' name='cpf'/><br/><br/>
+                    Escolha seu curso:
+                    <select name="curso">
+                        <option value="escolha">Escolha o Curso...</option>    
+                        <option value="Adimin">Administração</option>
+                        <option value="Ingles">Ingles</option>
+                        <option value="TI">Tecnico em Informatica</option>
+                    </select> <br/><br/>
+                    Digite o nº de Disciplina:<br/>
+                    <input type = 'text' name='ndisciplina'/><br/><br/>
+                   
+                    Escolha a condição:<br/>
+                       À vista: 
+                        <input type='radio' name='condicao' value='avista'/><br/>
+                       Parcelado:
+                       <input type='radio' name='condicao' value='parcelado'/>
+                       <input type = 'text' name='nparcelas' /><br/>
+                   
+                    <input type ='submit' value ='Enviar'/>
+                    </form>
+    </body>
+</html>

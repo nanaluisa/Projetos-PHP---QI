@@ -1,0 +1,19 @@
+Trabalho Calculadora
+Faça sua dupla!
+
+-Trabalho vale 4 pontos;
+
+- Ao término do trabalho envie para gabriela.trevisan@qi.edu.br;
+
+- Você fará uma calculadora, esta calculadora terá 7 operações matemáticas:
+
+       Soma, Multiplicação, Divisão, Subtração, Fatorial, Percentual, Exponecial.
+
+- Você terá 2 arquivos para classe: um deles terá um construtor vazio e com os métodos 
+acessores, o outro arquivo terá apenas o construtor com toString.
+
+- A chamada dos métodos será feita em um arquivo controle.
+
+- Por fim construa um relatório com um print da classe com apenas 
+o construtor e outro com a classe com os métodos acessores. 
+Explique como cada um trabalha.

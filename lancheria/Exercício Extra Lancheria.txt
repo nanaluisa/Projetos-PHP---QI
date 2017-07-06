@@ -1,0 +1,28 @@
+Exercício Extra Lancheria  - ENTREGAR ATÉ ANTES DA PROVA
+Lancheria Seu João (1 ponto extra N1)
+
+Seu João nos contatou para construir um sistema de pedidos de lanches online.
+Na solicitação de pedidos teremos:
+
+Página de entrada
+Nome:
+Lanche:<select>
+Endereço de entrega:
+Cliente:sim/não  (caso a pessoa não seja cliente deverá informá-lo que deve fazer o cadastro, senão faz pedido);
+Quantidade:
+___________________________________________________________________________
+Relatório de apresentação(resposta.php)
+Nome:
+Lanche:<select>
+Endereço de entrega:
+Quantidade:
+Valor Total:
+
+Você terá os seguintes arquivos:
+index
+classe
+resposta
+controle
+_____________________________________________________________________________________
+- Use header(location:);
+- Use métodos mágicos;
